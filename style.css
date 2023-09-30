@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    align-items: center;
+    background-color: rgb(66, 63, 63);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container{
+    color: rgb(186, 245, 245);
+    height: 7rem;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0), 
+                -3px -3px 7px rgb(90, 87, 87);
+}
+.clock{
+    font-size: 3rem;
+}
